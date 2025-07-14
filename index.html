@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>AR HSEE - Renault</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="/style.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://cdn.glitch.global/60965034-86ab-4bb2-b301-9d8455a5e99c/favicon-16x16.png?v=1716380052088" type="image/x-icon"> 
+     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer id="my-model-viewer" ar-status src="https://cdn.glitch.global/8cc28527-bfa2-4108-a718-33fa8e7f5283/Luvas.glb?v=1717415741321" ar ar-modes=" webxr" camera-controls tone-mapping="neutral" shadow-intensity="2" shadow-softness="0" camera-orbit="52.19deg 79.15deg 35.08m" field-of-view="30deg"  interaction-prompt="none"  interpolation-decay="100">
+
+      
+
+           
+      
+      
+      <div  class="intro" >
+         <img id="logo"
+          src="https://cdn.glitch.global/8cc28527-bfa2-4108-a718-33fa8e7f5283/renault-logo.jpg?v=1717420062563"
+          class="illustration"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
+          
+       
+        <h1>HSEE Renault</h1>
+        
+      </div>
+
+    
+
+
+      <button id="l1" class="Hotspot glove-btn" slot="hotspot-1" data-position="0.41971033358629295m 4.6892522568394135m 0.47691994909890845m" data-normal="0.6775401520906217m -0.020226449522648737m 0.7352076122053723m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation" id="l1txt"></div>
+         
+      </button>
+      
+      <button id="l2" class="Hotspot glove-btn" slot="hotspot-2" data-position="0.4283706270961699m 4.618333441719433m -3.3353285950659695m" data-normal="0.6770854478979073m 0.03458472561898443m 0.7350912820859392m" data-visibility-attribute="visible">
+         <div class="HotspotAnnotation"  id="l2txt"></div>
+     
+      </button>
+      
+      <button id="l3" class="Hotspot glove-btn" slot="hotspot-3" data-position="0.47535387578034m 4.535480693867026m -7.91439920597096m" data-normal="0.835830350791232m 0.024400004363844825m 0.5484453158549634m" data-visibility-attribute="visible">
+       <div class="HotspotAnnotation"  id="l3txt"></div> 
+      </button>
+      
+      <button id="l4" class="Hotspot glove-btn" slot="hotspot-4" data-position="0.5433356633480367m 3.955121986171831m -14.085034062786997m" data-normal="0.6702834042363811m 0.11481063875152184m 0.7331702907474879m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation"  id="l4txt"></div> 
+      </button>
+
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+
+      <button slot="ar-button" id="ar-button">
+          AR
+      </button>
+
+      <div id="ar-prompt">
+          
+      </div>
+      
+      
+      <div id="question-container">
+        <p id="question-text"></p>
+        <p id="feedback-text"></p>
+      </div>
+    
+   
+
+    </model-viewer>  
+    
+       
+ 
+
+      
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  </body>
+</html>
